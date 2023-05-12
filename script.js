@@ -178,7 +178,7 @@ var answerCheck = function(event) {
   var selectedanswer = event.target
       if (arrayShuffledQuestions[QuestionIndex].a === selectedanswer.innerText){
           answerCorrect()
-          score = score + 5
+          score = score + 10
       }
 
 
